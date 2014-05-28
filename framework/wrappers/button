@@ -1,0 +1,5 @@
+# Here will be button wrapper class
+
+class Button(object):
+  def button(self):
+    pass
