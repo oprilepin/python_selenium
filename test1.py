@@ -1,7 +1,6 @@
- import os
-  def test1():
+def test1():
     print ("Started1")
     print ("Started2")
-  test1()
+test1()
     
 
