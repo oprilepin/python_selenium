@@ -1,15 +1,8 @@
-import sys
-def create():
-    print("creating new  file")
-    name=raw_input ("enter the name of file:")
-    extension=raw_input ("enter extension of file:")
-    try:
-        name=name+"."+extension
-        file=open(name,'a')
+ import os
+  def test1():
+    os.system("start cmd")
+    print ("Started1")
+    print ("Started2")
+  test1()
+    
 
-        file.close()
-    except:
-            print("error occured")
-            sys.exit(0)
-
-create()
