@@ -1,2 +1,4 @@
+import os
 def test1():
-  print ("sdfdsfdsf")
+  os.system("start cmd")
+  print ("Started")
